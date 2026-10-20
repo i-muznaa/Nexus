@@ -1,4 +1,8 @@
 // @ts-ignore
+import PaymentWallet from '../../components/PaymentWallet';
+// @ts-ignore
+import SecurityModal from '../../components/SecurityModal';
+// @ts-ignore
 import ChatSystem from '../../components/ChatSystem';
 // @ts-ignore
 import DocumentManager from '../../components/DocumentManager';
@@ -51,6 +55,8 @@ export const EntrepreneurDashboard: React.FC = () => {
           <DocumentManager />
           <MeetingCalendar />
           <ChatSystem />
+          <PaymentWallet />
+          <SecurityModal />
         </div>
         
         <Link to="/investors">
