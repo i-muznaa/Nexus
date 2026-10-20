@@ -1,4 +1,8 @@
 // @ts-ignore
+import VideoCall from '../../components/VideoCall';
+// @ts-ignore
+import DocumentChamber from '../../components/DocumentChamber';
+// @ts-ignore
 import PaymentWallet from '../../components/PaymentWallet';
 // @ts-ignore
 import SecurityModal from '../../components/SecurityModal';
@@ -57,6 +61,8 @@ export const EntrepreneurDashboard: React.FC = () => {
           <ChatSystem />
           <PaymentWallet />
           <SecurityModal />
+          <VideoCall />
+          <DocumentChamber />
         </div>
         
         <Link to="/investors">
