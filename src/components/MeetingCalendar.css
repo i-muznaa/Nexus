@@ -1,0 +1,114 @@
+.calendar-dashboard-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: inherit;
+}
+
+.calendar-dashboard-container h2 {
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.calendar-dashboard-container p {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.calendar-box {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected-date-text {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+.meeting-form-box {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meeting-form-box h3 {
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.meeting-form-box label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: #475569;
+}
+
+.time-select {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.book-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.book-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.confirmed-meetings-section {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 25px;
+}
+
+.confirmed-meetings-section h3 {
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.meetings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meeting-item {
+  background: #f1f5f9;
+  padding: 12px 18px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #334155;
+}

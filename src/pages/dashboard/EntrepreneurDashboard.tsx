@@ -1,3 +1,5 @@
+// @ts-ignore
+import MeetingCalendar from '../../components/MeetingCalendar';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Users, Bell, Calendar, TrendingUp, AlertCircle, PlusCircle } from 'lucide-react';
@@ -42,6 +44,7 @@ export const EntrepreneurDashboard: React.FC = () => {
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Welcome, {user.name}</h1>
           <p className="text-gray-600">Here's what's happening with your startup today</p>
+          <MeetingCalendar />
         </div>
         
         <Link to="/investors">
