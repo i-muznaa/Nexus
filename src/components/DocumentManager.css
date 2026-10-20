@@ -1,0 +1,136 @@
+.doc-manager-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: inherit;
+}
+
+.doc-manager-container h2 {
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.doc-manager-container p {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.doc-upload-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 30px;
+}
+
+.doc-upload-card h3 {
+  margin-bottom: 12px;
+  color: #1e293b;
+}
+
+.file-input-wrapper input {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.selected-file-info {
+  font-size: 0.9rem;
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.upload-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.upload-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.doc-list-section h3 {
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.doc-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.doc-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f5f9;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.doc-icon {
+  font-size: 1.8rem;
+  margin-right: 15px;
+}
+
+.doc-details {
+  flex-grow: 1;
+}
+
+.doc-details h4 {
+  margin: 0 0 4px 0;
+  color: #0f172a;
+}
+
+.doc-details p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.doc-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.download-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background: #f8fafc;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #dc2626;
+  border: 1px solid #fca5a5;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+}
+
+.no-docs {
+  color: #94a3b8;
+  font-style: italic;
+}

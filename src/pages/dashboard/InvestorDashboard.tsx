@@ -1,4 +1,6 @@
 // @ts-ignore
+import DocumentManager from '../../components/DocumentManager';
+// @ts-ignore
 import MeetingCalendar from '../../components/MeetingCalendar';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -59,6 +61,7 @@ export const InvestorDashboard: React.FC = () => {
           <h1 className="text-2xl font-bold text-gray-900">Discover Startups</h1>
           <p className="text-gray-600">Find and connect with promising entrepreneurs</p>
           <MeetingCalendar/>
+          <DocumentManager />
         </div>
         
         <Link to="/entrepreneurs">
