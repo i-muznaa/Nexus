@@ -1,4 +1,6 @@
 // @ts-ignore
+import ChatSystem from '../../components/ChatSystem';
+// @ts-ignore
 import DocumentManager from '../../components/DocumentManager';
 // @ts-ignore
 import MeetingCalendar from '../../components/MeetingCalendar';
@@ -48,6 +50,7 @@ export const EntrepreneurDashboard: React.FC = () => {
           <p className="text-gray-600">Here's what's happening with your startup today</p>
           <DocumentManager />
           <MeetingCalendar />
+          <ChatSystem />
         </div>
         
         <Link to="/investors">
